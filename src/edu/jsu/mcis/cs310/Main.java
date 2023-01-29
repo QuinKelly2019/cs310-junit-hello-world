@@ -18,6 +18,11 @@ public class Main {
     
     public String reverse(String message) {
         return message;
+        StringBuilder str = new StringBuilder();
+        str.append(message);
+
+        return str.reverse().toString();
     }
+    
     
 }
