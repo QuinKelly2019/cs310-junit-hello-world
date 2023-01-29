@@ -20,7 +20,6 @@ public class Main {
         return message;
         StringBuilder str = new StringBuilder();
         str.append(message);
-
         return str.reverse().toString();
     }
     
